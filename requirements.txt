@@ -1,0 +1,22 @@
+# UI
+streamlit>=1.35.0
+
+# Frontier model
+anthropic>=0.27.0
+# openai>=1.30.0        # uncomment for GPT-4.1
+
+# OSS model
+transformers>=4.40.0
+torch>=2.2.0             # CPU version fine for Qwen 0.5B
+accelerate>=0.29.0
+huggingface-hub>=0.22.0
+requests>=2.31.0         # HF Inference API fallback
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Evaluation
+pandas>=2.2.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+tqdm>=4.66.0
